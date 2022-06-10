@@ -1,0 +1,51 @@
+/* this part is for CSS styling for the html Tags or Tag selectors */
+body {
+  background-color: #EAF6F6;
+}
+
+hr{
+  border-style: none;
+  height: 5px;
+  border-top: 5px dotted grey;
+  width: 5%;
+}
+
+h1 {
+  color: #66BFBF
+}
+
+h3 {
+  color: #66BFBF
+}
+
+h2 {
+  color: #66BFBF
+}
+p:hover{
+  color:#00bfff;    /* hover is used for changes when the mouse is on top of the element*/
+}
+ul:hover{
+  color:#00bfff;
+}
+table:hover{
+  color:#00bfff;
+}
+li:hover{
+  color:#00bfff;
+}
+form:hover{
+  color:#00bfff;
+}
+/* this is th syntax for the classes or the Class selectors. Class overwrites the basic tag
+ .<class name>{
+   styling ;
+ }
+  There also ids in CSS which are very similar to classes but there can be only one id for a single element which can't be
+  used in another element, but same classes can be used for multiple elements. The syntax for ids are :-
+  #<id name>{
+  styling ;
+ }
+*/
+.circular{
+  border-radius: 100%;
+}
